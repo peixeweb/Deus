@@ -1,0 +1,7 @@
+{
+  "name": "Living Waters Brasil",
+  "description": "Portal oficial do ministério Living Waters no Brasil e América Latina com capacitação, artigos apologéticos e vídeos de evangelismo bíblico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .font-editorial {
+    font-family: 'Literata', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f4fb;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5cdd9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9aa5b8;
+}
