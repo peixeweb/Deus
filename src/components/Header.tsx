@@ -57,7 +57,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center gap-3 group"
           >
             <img
-              src={import.meta.env.BASE_URL + "assets/logo.png"}
+              src={import.meta.env.BASE_URL + "assets/logo.webp"}
               alt="Living Waters Brasil"
               className="h-10 sm:h-11 w-auto max-w-[170px] sm:max-w-[210px] object-contain transition-transform duration-200 group-hover:scale-102"
               referrerPolicy="no-referrer"

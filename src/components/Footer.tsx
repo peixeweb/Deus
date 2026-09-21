@@ -23,7 +23,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenDonation, onSelectNav }) =
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
               <img
-                src={import.meta.env.BASE_URL + "assets/logo.png"}
+                src={import.meta.env.BASE_URL + "assets/logo.webp"}
                 alt="Living Waters Brasil"
                 className="h-10 sm:h-11 w-auto max-w-[170px] sm:max-w-[210px] object-contain"
                 referrerPolicy="no-referrer"
