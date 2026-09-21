@@ -85,7 +85,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: '15 de Set, 2026',
     readTime: '7 min de leitura',
     category: 'Doutrina & Fidelidade',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB2e8O1sV0JmBvd-78tV2Fh8wz0C6i9Lp9V3K1M7n6x4B2C8d0F3A1E9z7W',
+    imageUrl: import.meta.env.BASE_URL + 'assets/ez-zwayne.webp',
     imageAlt: 'Bíblia aberta sob luz suave em púlpito pastoral.',
     excerpt:
       'O profeta Jeremias advertiu contra aqueles que curavam superficialmente a ferida do povo, dizendo "Paz, paz", quando não havia paz. Reduzir a conversão a uma oração mecânica sem convicção de pecado gera desilusão espiritual.',
