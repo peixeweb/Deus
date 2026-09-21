@@ -126,7 +126,7 @@ export const BloggerSection: React.FC<BloggerSectionProps> = ({ onSelectArticle 
           <div className="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
             <div className="flex items-start gap-4 sm:gap-5">
               <img
-                src="/assets/ray-comfort.jpg"
+                src={import.meta.env.BASE_URL + "assets/ray-comfort.jpg"}
                 alt="Ray Comfort"
                 referrerPolicy="no-referrer"
                 className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-[#fd651e] shadow-md shrink-0"

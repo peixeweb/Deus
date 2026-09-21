@@ -6,7 +6,7 @@ export const HERO_DATA = {
   title: 'Isto fará você mudar a sua forma de ver o Inferno',
   description:
     'Para pregar o Evangelho com fidelidade, é necessário ter uma convicção bíblica profunda sobre a realidade do Inferno — pois é isso que desperta o coração dos crentes para a urgência da proclamação da salvação em Cristo.',
-  bgImage: '/assets/ray-comfort.jpg',
+  bgImage: import.meta.env.BASE_URL + 'assets/ray-comfort.jpg',
   bgAlt:
     'Ray Comfort, fundador da Living Waters, no estúdio oficial com microfone e estantes ao fundo.',
   articleContent: [
